@@ -11,7 +11,7 @@ FILES_TO_INGEST = [
     {"path": "Fake.csv", "source_name": "Kaggle_FakeNews", "source_id": 2},
 ]
 
-#Columns present in Fake and True files
+#The Schema Contract (14 columns from your architecture doc)
 TARGET_COLUMNS = [
     "article_id", "source_id", "source_name", "title", "description",
     "content", "author", "category", "published_at", "url",
