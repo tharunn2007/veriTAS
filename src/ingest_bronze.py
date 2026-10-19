@@ -18,7 +18,6 @@ def generate_hash(text):
         return None
     return hashlib.md5(str(text).encode("utf-8")).hexdigest()
 
-
 def ingest_one_file(path, source_name, source_id):
     """Read one raw CSV and land it in Bronze as Parquet."""
     print(f"\n📥 Reading {path} ...")
