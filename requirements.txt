@@ -1,0 +1,4 @@
+# CSV v1 Bronze/Silver/Gold runtime; dashboard dependencies come in Day 4.
+pandas==3.0.6
+pyarrow==25.0.1
+duckdb==1.5.6
